@@ -1,0 +1,57 @@
+# Sample Output 1
+Input: "The Indian government has announced free electricity to all farmers starting July 2025."
+
+{
+  "verdict": "False",
+  "confidence": 0.9453,
+  "reasoning": "The evidence provided indicates that as of the current date, there has been no official announcement by the Indian government for free electricity to farmers from July 2025.",
+  "evidence": [
+    "The central government has not announced free electricity to all farmers in July 2025.",
+    "No nationwide free electricity to farmers program has been announced for July 2025.",
+    "No universal free electricity announcement has been made for farmers in 2025."
+  ]
+}
+
+---
+
+# Sample Output 2
+Input: "PM-KISAN scheme provides ₹6000 per year to farmer families."
+
+{
+  "verdict": "True",
+  "confidence": 0.9821,
+  "reasoning": "The evidence directly confirms that the PM-KISAN scheme provides ₹6000 annually to farmer families, matching the claim exactly.",
+  "evidence": [
+    "The PM-KISAN scheme provides ₹6000 per year to farmer families.",
+    "Direct income support of ₹6000 annually is provided under PM-KISAN.",
+    "The PM-KISAN scheme covers around 11 crore farmer families."
+  ]
+}
+
+---
+
+# Sample Output 3
+Input: "Quantum computing will replace all classical computers by 2030."
+
+{
+  "verdict": "Unverifiable",
+  "confidence": 0.18,
+  "reasoning": "Insufficient relevant evidence found (confidence: 0.18). Claim is too vague or outside knowledge base.",
+  "evidence": []
+}
+
+---
+
+# Sample Output 4
+Input: "India's agricultural policy includes Minimum Support Price for crops."
+
+{
+  "verdict": "True",
+  "confidence": 0.9512,
+  "reasoning": "The retrieved evidence confirms that India's agricultural policy includes Minimum Support Price (MSP) for crops, validating the claim.",
+  "evidence": [
+    "India's agricultural policy includes Minimum Support Price (MSP) for crops.",
+    "The government announced increased MSP for wheat and rice in 2024.",
+    "Agricultural policy includes soil health cards and crop insurance."
+  ]
+}
